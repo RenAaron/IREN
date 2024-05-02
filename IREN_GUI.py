@@ -13,7 +13,7 @@ clicked = StringVar()
 clicked.set("HOT KEY 1")
 
 clicked2 = StringVar()
-clicked2.set("GMAIL")
+clicked2.set("RIT")
 
 clicked3 = StringVar()
 clicked3.set("HOT KEY 2")
@@ -33,8 +33,8 @@ def sendLink():
      
      linkHk = clicked.get()[8:9]
 
-     if (clicked2.get() == "GMAIL"):
-          linkLink = "mail.google.com"
+     if (clicked2.get() == "RIT"):
+          linkLink = "rit.edu"
 
      if (clicked2.get() == "DRIVE"):
           linkLink = "google.com/drive/"
