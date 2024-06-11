@@ -30,7 +30,6 @@ const int RECV_PIN = 7;
 IRrecv irrecv(RECV_PIN);
 decode_results results;
 
-#include <IRremote.h>
 IRsend irsend;
 
 char *hkLinks[] = {"", "1", "", "2"};
